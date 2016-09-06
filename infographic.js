@@ -1,10 +1,10 @@
 $(document).ready(function(){
-	$(".population").click(function(){
-		$(".basicFacts").fadeOut();
+	$("button").click(function(){
+		$(".basicFacts").toggle(),
+		$(".hide-this").toggle();
 	});
 });
 $(window).load(function() {
-  // When the page has loaded
   $("main").fadeIn(2000);
 });
 
