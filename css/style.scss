@@ -1,3 +1,27 @@
+body {
+	background-color: #D2EEF7;
+	color: #fff;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
 #mainContent {
 	display: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+img#map{
+	width: 150px;
+	height: 150px;
+}
+
+.basic-facts {
+	display: flex;
+	justify-content: center;
+}
+
+.food-info{
+	display: flex;
+	justify-content: center;
 }

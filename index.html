@@ -18,6 +18,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 <!-- Custom JavaScript -->
 <script type="text/javascript" src="infographic.js"></script>
 
@@ -30,45 +31,46 @@
 <!-- HEADER -->
 
 	<header>
+		<div class="row">
 			<h1>Facts about Japan!</h1>
+		</div>
 	</header>
 
 <!-- MAIN -->
 <main id="mainContent">
-	<div class="row">
-			<button type="button" class="btn btn-default">Food</button>
-			<button type="button" class="btn btn-default">Greeting Phrases</button>
-			<button type="button" class="btn btn-default population">Population</button>
-	</div>
-	<div class="row">
-		<section id="food" class="col-md-4">
+
+	<div class="row basic-facts">
+		<section class="col-md-4">
+			<ul>
+				<li>Welcome - ようこそ (yokoso)</li>
+				<li>Thank You - ありがとうございます (arigato gozaimasu)</li>
+				<li>Good Afternoon - こんにちは (konnichiwa)</li>
+				<li>Good Bye - さようなら (sayōnara)</li>
+				<li>Please - ください (kudasai)</li>
+				<li>Sorry - ごめんなさい! (gomen nasai)</li>
+			</ul>
+		</section>
+		<section class="col-md-4">
+			<ul>
+				<li>Japan exists of 127,6 million people</li>
+				<li>Currency - Yen (JPY)</li>
+				<li>Capital - Tokyo</li>
+				<li>6852 islands</li>
+			</ul>
+		</section>
+		<section>
+			<img id="map" src="img/jpn.png">
+		</section>
+		</div>
+
+		<div class="row food-info">
+			<section class="col-md-4">
 				<p>The traditional cuisine of Japan (和食 washoku) is based on rice with miso soup and other dishes, with an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, and vegetables cooked in broth. Fish is common, often grilled, but also served raw as sashimi or in sushi. Seafood and vegetables are also deep-fried in a light batter as tempura.<br>
 				Apart from rice, staples include noodles, such as soba and udon. Japan has many simmered dishes such as fish products in broth called oden, or beef in sukiyaki and nikujaga. Foreign food, in particular Chinese food in the form of noodles in soup called ramen and fried dumplings, gyoza, and western food such as curry and hamburger steaks are commonly found in Japan.<br>
 				Japan has an indigenous form of sweets called wagashi include ingredients such as red bean paste as well as indegenous rice wine or sake.</p>
-				<!--<ul>
-					<li>Sushi</li>
-					<li>Ramen</li>
-					<li>Green Tea</li>
-					<li>Sake</li>
-				</ul>
-				-->
-		</section>
-		<section id="phrases" class="col-md-4">
-				<ul>
-					<li>Welcome - ようこそ (yokoso)</li>
-					<li>Thank You - ありがとうございます (arigato gozaimasu)</li>
-					<li>Good Afternoon - こんにちは (konnichiwa)</li>
-					<li>Good Bye - さようなら (sayōnara)</li>
-					<li>Please - ください (kudasai)</li>
-					<li>Sorry - ごめんなさい! (gomen nasai)</li>
-				</ul>
-		</section>
-			<section class="basicFacts" class="col-md-4">
-				<ul>
-					<li>Japan exists of 127,6 million people</li>
-					<li>Currency - Yen (JPY)</li>
-					<li>Capital - Tokyo</li>
-				</ul>
+			</section>
+			<section>
+				<img src="img/sushi.png">
 			</section>
 		</div>
 
