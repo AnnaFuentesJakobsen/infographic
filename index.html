@@ -3,11 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Facts About Japan</title>
+
 <!-- Normalize -->
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,12 +13,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-<!-- Custom JavaScript -->
-<script type="text/javascript" src="infographic.js"></script>
 
 <!-- Custom Style Sheet -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -32,92 +25,138 @@
 
 	<header>
 		<div class="row">
-			<h1>Facts about Japan!</h1>
+			<h1>Travel to Japan!</h1>
+			<img src="img/flag.png" class="img-responsive" alt="Japans flag">
+		</div>
+
+		<div class="row">
+			
 		</div>
 	</header>
 
 <!-- MAIN -->
 <main id="mainContent">
-
 	<div class="row basic-facts">
-		<section class="col-md-4">
+		<section class="col-md-3">
 			<ul>
-				<li>Welcome - ようこそ (yokoso)</li>
-				<li>Thank You - ありがとうございます (arigato gozaimasu)</li>
-				<li>Good Afternoon - こんにちは (konnichiwa)</li>
-				<li>Good Bye - さようなら (sayōnara)</li>
-				<li>Please - ください (kudasai)</li>
-				<li>Sorry - ごめんなさい! (gomen nasai)</li>
+				<li><span>Welcome - ようこそ (yokoso)</span></li>
+				<li><span>Thank You - ありがとうございます (arigato gozaimasu)</span></li>
+				<li><span>Good Afternoon - こんにちは (konnichiwa)</span></li>
+				<li><span>Let's eat! - いただきます (itadakimasu!)</span></li>
+				<li><span>Please - ください (kudasai)</span></li>
+				<li><span>Sorry - ごめんなさい! (gomen nasai)</span></li>
+				<li><span>Good Bye - さようなら (sayōnara)</span></li>
 			</ul>
 		</section>
-		<section class="col-md-4">
+		<section class="col-md-3">
 			<ul>
-				<li>Japan exists of 127,6 million people</li>
-				<li>Currency - Yen (JPY)</li>
-				<li>Capital - Tokyo</li>
-				<li>6852 islands</li>
+				<li><span>Japan exists of 127,6 million people</span></li>
+				<li><span>Currency - Yen (JPY)</span></li>
+				<li><span>Capital - Tokyo</span></li>
+				<li><span>6852 islands</span></li>
 			</ul>
 		</section>
-		<section>
-			<img id="map" src="img/jpn.png">
+		<section id="tourism" class="col-md-3">
+				<ul>
+					<li><span>Mount Fuji</span></li>
+					<li><span>Itsukushima shrine</span></li>
+					<li><span>Kinkaku-ji</span></li>
+				</ul>
 		</section>
-		</div>
+	</div>
+	<div class="row col-md-12 map-content">
+		<h3>Curious to know what Japan looks like?</h3>	
+		<button class="map-btn">Take a look!</button>
+			<img src="img/jpn.png" class="img-responsive map" alt="Map of Japan">
+	</div>
+		
 
+		<h2>Japanese Cuisine</h2>
 		<div class="row food-info">
-			<section class="col-md-4">
+			<section class="col-md-8">
 				<p>The traditional cuisine of Japan (和食 washoku) is based on rice with miso soup and other dishes, with an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, and vegetables cooked in broth. Fish is common, often grilled, but also served raw as sashimi or in sushi. Seafood and vegetables are also deep-fried in a light batter as tempura.<br>
 				Apart from rice, staples include noodles, such as soba and udon. Japan has many simmered dishes such as fish products in broth called oden, or beef in sukiyaki and nikujaga. Foreign food, in particular Chinese food in the form of noodles in soup called ramen and fried dumplings, gyoza, and western food such as curry and hamburger steaks are commonly found in Japan.<br>
 				Japan has an indigenous form of sweets called wagashi include ingredients such as red bean paste as well as indegenous rice wine or sake.</p>
 			</section>
-			<section>
-				<img src="img/sushi.png">
+			<section class="col-md-4">
+				<img src="img/sushi.png" class="img-responsive sushi-img" alt="Sushi image">
 			</section>
 		</div>
 
-		<div class="row">
-			<section id="tourism" class="col-md-6">
-				<button type="button" class="btn btn-default">Tourism</button>
-					<ul>
-						<li>Mount Fuji</li>
-						<li>Itsukushima shrine</li>
-						<li>Kinkaku-ji</li>
-					</ul>
+		<div class="row ramen-info">
+			<section class="col-md-4">
+				<img src="img/ramen2.png" class="img-responsive ramen-img" alt="Ramen image">
 			</section>
 
-			<section id="etiquette" class="col-md-6">
-				<button type="button" class="btn btn-default">Etiquette</button>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<section class="col-md-8">
+			<p>Japanese noodles often substitute for a rice-based meal. Soba (thin, grayish-brown noodles containing buckwheat flour) and udon (thick wheat noodles) are the main traditional noodles, while ramen is a modern import and now very popular. There are also other, less common noodles.
+			<br>
+			Japanese noodles, such as soba and udon, are eaten as a standalone, and usually not with a side dish, in terms of general custom. It may have toppings, but they are called gu. The fried battered shrimp tempura sitting in a bowl of tempura-soba would be referred to as "the shrimp" or "the tempura", and not so much be referred to as a topping (gu). The identical toppings, if served as a dish to be eaten with plain white rice could be called okazu, so these terms are context-sensitive.
+			<br>
+			Hot noodles are usually served in a bowl already steeped in their broth and are called kakesoba or kakeudon. Cold soba arrive unseasoned and heaped atop a zaru or seiro, and are picked up with a chopstick and dunked in their dip sauce. The broth is a soy-dashi-mirin type of mix; the dip is similar but more concentrated (heavier on soy sauce).
+			<br>
+			In the simple form, yakumi (condiments and spices) such as shichimi, nori, finely chopped scallions, wasabi, etc. are added to the noodles, besides the broth/dip sauce.
+			<br>
+			Udon may also be eaten in kama-age style, piping hot straight out of the boiling pot, and eaten with plain soy sauce and sometimes with raw egg also.
+			</p>
 			</section>
 		</div>
-			<section id="map">
-				<button type="button" class="btn btn-default">Map + Flag</button>
+		<div class="row sake-info">
+			<section class="col-md-8">
+				<p>Sake is a brewed rice beverage that, typically, contains 15%~17% alcohol and is made by multiple fermentation of rice. At traditional formal meals, it is considered an equivalent to rice and is not simultaneously taken with other rice-based dishes, although this notion is typically no longer applied to modern, refined, premium ("ginjo") sake, which bear little resemblance to the sakes of even 100 years ago. 
+				<br>
+				Side dishes for sake are particularly called sakana or otsumami.
+				Sake is brewed in a highly labor-intensive process more similar to beer production than winemaking, hence, the common description of sake as rice "wine" is misleading. Sake is made with, by legal definition, strictly just four ingredients: special rice, water, koji, and special yeast.
+				<br>
+				As of 2014, Japan has some 1500 registered breweries,31 which produce thousands of different sakes. Sake characteristics and flavor profiles vary with regionality, ingredients, and the styles (maintained by brewmaster guilds) that brewery leaders want to produce.
+				<br>
+				Sake flavor profiles lend extremely well to pairing with a wide variety of cuisines, including non-Japanese cuisines.</p>
 			</section>
+			<section class="col-md-4">
+				<img src="img/sake.png" class="img-responsive sake-img" alt="Sake image">
+			</section>
+		</div>
 
-			<section id="">
-				<button type="button" class="btn btn-default"">Random facts</button>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<section class="row col-md-12">
+				<button type="button" class="btn btn-default etiquette-btn">Etiquette</button>
+					<p class="etiquette">Many restaurants and homes in Japan are equipped with Western-style chairs and tables. However, traditional Japanese low tables and cushions, usually found on tatami floors, are also very common. Tatami mats, which are made of straw, can be easily damaged and are hard to clean, thus shoes or any type of footwear are always taken off when stepping on tatami floors.
+					<br>
+					When dining in a traditional tatami room, sitting upright on the floor is common. In a casual setting, men usually sit with their feet crossed and women sit with both legs to one side. Only men are supposed to sit cross-legged. The formal way of sitting for both sexes is a kneeling style known as seiza. To sit in a seiza position, one kneels on the floor with legs folded under the thighs and the buttocks resting on the heels.
+					<br>
+					When dining out in a restaurant, the customers are guided to their seats by the host. The honored or eldest guest will usually be seated at the center of the table farthest from the entrance. In the home, the most important guest is also seated farthest away from the entrance. If there is a tokonoma, or alcove, in the room, the guest is seated in front of it. The host sits next to or closest to the entrance.</p>
 			</section>
+		</div>
+		<section class="row col-md-12">
+			<button type="button" class="btn btn-default random-btn">Random facts</button>
+				<ul class="random">
+					<li>Japan suffers 1,500 earthquakes every year.</li>
+					<li>In Japan there are more pets than children.</li>
+					<li>Around 24 billion pairs of chopsticks are used in Japan each year.</li>
+					<li>Most streets in Japan have no name.</li>
+					<li>Godzilla is an official Citizen of Japan.</li>
+					<li>In Japanese, there are at least 20 different ways to say "sorry".</li>
+				</ul>
+		</section>
+
 
 	</main>
 
 <!-- FOOTER -->
 
 <footer>
-	<section id="weather">
-		<button type="button" class="btn btn-default">Weather</button>
-		<div id="#weatherLog"></div>
-	</section>
+
 </footer>
+<!-- Scripts -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Custom JavaScript -->
+<script type="text/javascript" src="infographic.js"></script>
+
 
 </body>
 </html>

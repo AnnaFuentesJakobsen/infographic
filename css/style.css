@@ -1,23 +1,47 @@
 body {
-  background-color: #D2EEF7;
-  color: #fff;
   font-family: 'Ubuntu Condensed', sans-serif; }
 
-#mainContent {
-  display: none; }
+header img {
+  width: 200px;
+  margin: 0 auto; }
 
 h1 {
   text-align: center; }
 
-img#map {
-  width: 150px;
-  height: 150px; }
+ul li {
+  color: red; }
+
+ul li span {
+  color: #000; }
+
+.map {
+  width: 370px;
+  height: 300px;
+  display: none; }
+
+.map-content {
+  display: flex;
+  justify-content: center; }
+
+.hide-button {
+  display: none; }
+
+.sushi-img, .ramen-img, .sake-img {
+  width: 250px; }
 
 .basic-facts {
   display: flex;
   justify-content: center; }
 
 .food-info {
+  display: flex;
+  justify-content: center; }
+
+.ramen-info {
+  display: flex;
+  justify-content: center; }
+
+.sake-info {
   display: flex;
   justify-content: center; }
 
