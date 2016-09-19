@@ -1,8 +1,5 @@
-// Load
-/*$(window).load(function() {
-  $("main").fadeIn(2000);
-});
-*/
+
+// Hover
 
 $( "h1" ).hover(
   function() {
@@ -12,30 +9,45 @@ $( "h1" ).hover(
   }
 );
 
-$(document).ready(function(){
-	$(".map-btn").click(function(){
-		$(".map").fadeIn(2000);
-	});
-});
+//Fade in
 
-// Add Class
 
 $(".map-btn").click(function(){
-    $(".map-btn").addClass("hide-button");
+	$(".map").fadeIn(2000);
 });
+
+
+// Append
+
+$( "h2" ).append( $( "<span> ^___^</span>" ) );
+
+// Hide
+
+$(".map-btn").click(function(){
+  event.preventDefault();
+  $( this ).hide();
+});
+
+$(document).ready(function(e) {
+       $('.map-btn').hover(function(){
+			$button=$(this).text();
+			$(this).text("Do it now!");
+		},function(){
+			$(this).text($button);
+			});
+   });
+
 
 
 // Toggle
 
-$(document).ready(function(){
-	$(".etiquette-btn").click(function(){
-		$(".etiquette").toggle();
-	});
-});
+$( ".etiquette-section" ).addClass( "add-bgColor" );
 
 $(document).ready(function(){
 	$(".random-btn").click(function(){
 		$(".random").toggle();
 	});
 });
+
+
 

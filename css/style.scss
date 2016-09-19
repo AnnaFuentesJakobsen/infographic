@@ -7,16 +7,12 @@ header img {
 	margin: 0 auto;
 }
 
-#mainContent {
-	//display: none;
-}
-
 h1 {
 	text-align: center;
 }
 
 ul li {
-	color: red;
+	color: #FA000C;
 }
 
 ul li span {
@@ -59,4 +55,13 @@ ul li span {
 .sake-info {
 	display: flex;
 	justify-content: center;
+}
+
+.add-bgColor {
+	background-color: #C390D4;
+	color: #fff;
+}
+
+.random {
+	display: none;
 }

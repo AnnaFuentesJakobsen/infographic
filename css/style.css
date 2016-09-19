@@ -9,7 +9,7 @@ h1 {
   text-align: center; }
 
 ul li {
-  color: red; }
+  color: #FA000C; }
 
 ul li span {
   color: #000; }
@@ -44,5 +44,12 @@ ul li span {
 .sake-info {
   display: flex;
   justify-content: center; }
+
+.add-bgColor {
+  background-color: #C390D4;
+  color: #fff; }
+
+.random {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
