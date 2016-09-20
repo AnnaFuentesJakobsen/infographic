@@ -17,10 +17,6 @@ $(".map-btn").click(function(){
 });
 
 
-// Append
-
-$( "h2" ).append( $( "<span> ^___^</span>" ) );
-
 // Hide
 
 $(".map-btn").click(function(){

@@ -1,5 +1,7 @@
 body {
 	font-family: 'Ubuntu Condensed', sans-serif;
+	max-width: 80em;
+	margin: 0 auto;
 }
 
 header img {
@@ -16,7 +18,19 @@ ul li {
 }
 
 ul li span {
-    color: #000;
+  color: #000;
+  width: 200px;
+}
+
+p {
+	padding: 20px;
+}
+
+button {
+	background-color: #A5EBFA;
+	font-size: 20px;
+	border: none;
+
 }
 
 .map {
@@ -42,26 +56,29 @@ ul li span {
 	justify-content: center;
 }
 
-.food-info {
-	display: flex;
-	justify-content: center;
-}
-
-.ramen-info {
-	display: flex;
-	justify-content: center;
-}
-
-.sake-info {
-	display: flex;
-	justify-content: center;
+.col-sm-3 {
+	margin: 30px;
 }
 
 .add-bgColor {
 	background-color: #C390D4;
-	color: #fff;
+	border-radius: 10px;
 }
 
 .random {
 	display: none;
+}
+
+.random-section {
+	display: flex;
+	justify-content: center;
+}
+ul.random {
+	text-align: center;
+
+}
+.random li {
+	list-style-type: none;
+	margin: 0 auto;
+	font-size: 20px;
 }
