@@ -64,6 +64,9 @@ button {
 	background-color: #C390D4;
 	border-radius: 10px;
 }
+.etiquette-section {
+	margin-top: 20px;
+}
 
 .random {
 	display: none;
@@ -72,6 +75,7 @@ button {
 .random-section {
 	display: flex;
 	justify-content: center;
+	margin-top: 20px;
 }
 ul.random {
 	text-align: center;

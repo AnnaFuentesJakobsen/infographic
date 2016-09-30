@@ -51,12 +51,16 @@ button {
   background-color: #C390D4;
   border-radius: 10px; }
 
+.etiquette-section {
+  margin-top: 20px; }
+
 .random {
   display: none; }
 
 .random-section {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 20px; }
 
 ul.random {
   text-align: center; }
